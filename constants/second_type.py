@@ -1,0 +1,5 @@
+BRAND_PATH = '//ul[@id="parameter-brand"]/li/@title'
+NAME_PATH = '//div[@class="sku-name"]/text()'
+STOCK_PATH = '//div[@id="store-prompt"]/strong/text()'
+PRICE_PATH = '//div[@class="dd"]/span[@class="p-price"]/span[2]/text()'
+MPN_PATH = '//ul[@class="parameter2 p-parameter-list"]/li[2]/@title'
